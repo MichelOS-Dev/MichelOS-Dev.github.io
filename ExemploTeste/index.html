@@ -1,0 +1,126 @@
+<!-- Utilizei as tags section, main, article, footer, nav como tags semânticas -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images/favicon-16x16.png">
+    <title>Vai Corinthians!</title>
+</head>
+<body>
+    <!-- Utilizei de alguns elementos para dar uma design melhor a tela. Não sei se podia, mas tentei utilizar um css em outro arquivo -->
+    <header>
+        <div class="left-img">
+            <a target="_blank" href="https://www.corinthians.com.br/">
+                <img src="./images/Corinthians.png" alt="Timão!">
+            </a>
+        </div>
+        <div class="left-text">
+            <p>Sport Club Corinthians Paulista</p>
+        </div>
+        <div class="header-links">
+            <nav>
+                <ul>
+                    <li>
+                        <a target="_blank" href="https://www.ingressoscorinthians.com.br/">
+                        Ingressos
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.shoptimao.com.br/">
+                            Produtos
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.neoquimicaarena.com.br/">
+                            Arena
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>Você conhece o Sport Club Corinthians Paulista?</h2>
+        <section>
+            <div class="conteudo">
+                <h3>1910 A fundação</h3>
+                <p>Às 20h30 do dia 1º de setembro, à luz de um lampião, na esquina das ruas José Paulino e Cônego Martins, no bairro do Bom Retiro, o grupo de operários formado por Anselmo Corrêa, Antônio Pereira, Carlos Silva, Joaquim Ambrósio e Raphael Perrone fundaram o Sport Club Corinthians Paulista. Com mais...</p>
+            </div>
+            <div class="conteudo">
+                <h3>1914 O primeiro título</h3>
+                <p>Primeiro título do Sport Club Corinthians Paulista. Com 10 vitórias em 10 jogos disputados, o Timão marcou 37 gols e venceu a última partida por 3 a 0, contra o Lusitano, no Parque Antártica. O atacante Neco foi o artilheiro do torneio com 12 gols. O Alvinegro...</p>
+            </div>
+            <div class="conteudo">
+                <h3>2000 O primeiro Mundial</h3>
+                <p>O primeiro título mundial de clubes reconhecido pela Fifa veio com uma vitória nos pênaltis contra o Vasco depois do empate sem gols no tempo normal. A escalação...</p>
+            </div>
+            <div class="conteudo">
+                <h3>1929 - O mosqueteiro</h3>
+                <p>O Alvinegro foi bicampeão do Campeonato Paulista novamente e, dessa vez, com 100% de aproveitamento: sete vitórias em sete jogos. No mesmo ano, a equipe venceu sua primeira partida internacional. Na ocasião, o Corinthians venceu o Barracas (ARG) por 3 a 1 no Parque São Jorge. Apparício, Rato e Rodrigues marcaram os gols da virada. No dia seguinte, o jornalista...</p>
+            </div class="conteudo">
+            <div class="conteudo">
+                <h3>1929 - O mosqueteiro</h3>
+                <p>O Alvinegro foi bicampeão do Campeonato Paulista novamente e, dessa vez, com 100% de aproveitamento: sete vitórias em sete jogos. No mesmo ano, a equipe venceu sua primeira partida internacional. Na ocasião, o Corinthians venceu o Barracas (ARG) por 3 a 1 no Parque São Jorge. Apparício, Rato e Rodrigues marcaram os gols da virada. No dia seguinte, o jornalista...</p>
+            </div class="conteudo">
+            <div class="conteudo">
+                <h3>1929 - O mosqueteiro</h3>
+                <p>O Alvinegro foi bicampeão do Campeonato Paulista novamente e, dessa vez, com 100% de aproveitamento: sete vitórias em sete jogos. No mesmo ano, a equipe venceu sua primeira partida internacional. Na ocasião, o Corinthians venceu o Barracas (ARG) por 3 a 1 no Parque São Jorge. Apparício, Rato e Rodrigues marcaram os gols da virada. No dia seguinte, o jornalista...</p>
+            </div class="conteudo">
+        </section>
+        <div class="infosite">
+            <h2>Acesse o site para mais informações:
+                <a target="_blank" href="https://www.corinthians.com.br/clube/historia">https://www.corinthians.com.br/clube/historia</a>
+            </h2>
+        </div>
+        <!-- Usei a tag article para a parte do meu formulário -->
+        <!-- Montar a estrutura e utilizar as opções css para estilizar e moldar a página acaba sendo mais complicado ao meu ver -->
+        <!-- Essa parte do formulário me gerou mais problema em questão de estruturar -->
+        <article>
+            <div>
+                <form class= "form" action="https://www.w3schools.com/action_page.php" method="GET">
+                    <label style="font-size:20px; ">CADASTRO CORINTHIANS!</label><br/><br/>
+                    <div class="input-container">
+                        <label for="campoLeitura">APENAS LEIA!</label>
+                        <input type="text" value="TORÇA PARA O CORINTHIANS! OBRIGADO!" readonly/><br/>
+                    </div>
+                    <div class="input-container">
+                        <label for="nome">Nome:</label>
+                        <input type="text" maxlength="15" required><br><br>
+                        <label for="number">Número de gols em toda sua carreira jogador(a) - ( Não aceitamos menos de 25000):</label>
+                        <input type="number" min="25000" max="30000" required><br><br>
+                    </div>
+                   
+                        <label>Trocedor(a) do corinthians: <br/><br/>
+                        <input type="radio" id="Sim" name="genero" value="M">
+                        <span class="outros" for="Sim">Sim</span>
+                        <input type="radio" id="Claro" name="genero" value="F">
+                        <span class="outros" for="Claro">Claro</span>
+                        <input type="radio" id="Obvio" name="genero" value="M">
+                        <span class="outros" for="Obvio">Óbvio</span>
+                        </label>
+                        <br/><br/><br/>
+              
+                    <div id="opcionais-container" class="input-container">
+                        <span class="outros" id="opcionais-title">
+                            <input type="checkbox" id="aceito" required> 
+                            Eu aceito os termos e condições ao me consagrar corinthiano(a)!<br><br/>
+                            Envie e seja feliz jogador(a)
+                        </span>
+                    </div>
+                    <div class="input-container">
+                        <input class="submit-btn" type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </article>
+    </main>
+    <!-- Utilizei a tag footer para o cabeçalho -->
+    <footer>
+        <div>
+            <p>© 2023 Michel Oliveira</p>
+        </div>
+    </footer>
+</body>
+</html>
