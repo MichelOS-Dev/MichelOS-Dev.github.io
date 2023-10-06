@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+
+    <style>
+        .btn {
+            background-color: rgb(87, 72, 72);
+            border: none;
+            padding: 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 3px 7px 5px;
+            transition: transform 400ms, box-shadow 400ms;
+        }
+
+        .btn:active {
+            box-shadow: 2px 3px 1px;
+            transform: translate(4px, 6px);
+        }
+
+        @media screen and (max-width:600px) {
+            .partemenu {
+                position: fixed;
+                top:0;
+                left:0;
+                height: 100vh;
+                width: 300px;
+            }
+            .navegador, .conteudo{
+                margin-left: 300px;
+            }
+        
+        }
+    </style>
+
+</head>
+<body>
+    <main class="page-one__container">
+        <header>
+            <div class="header-links">
+                <nav>
+                    <ul>
+                        <li>
+                            <button class="btn">Texto 01</button>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn btn">Selecione um texto</button>
+                                <div class="dropdown-content">
+                                    <p> Texto 01</p>
+                                    <p> Texto 02</p>
+                                    <p> Texto 03</p>
+                                </div>
+                              </div>
+                        </li>
+                        <li>
+                            <button class="btn">Texto 02</button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="container">
+            <aside class="partemenu">
+                <button class="btnlat"><a href="index.html">Home</a></button>
+                <button class="btnlat">Dashboard</button>
+                <button class="btnlat">Order history</button>
+                <button class="btnlat">Message</button>
+                <button class="btnlat">Teste</button>
+            </aside>
+            <section class="sectionOne">
+                <header>
+                  <h1>Página Home</h1>
+                </header>
+                <article>
+                  <h1>What is Lorem Ipsum?</h1>
+                  <section>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                    make
+                    a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                    containing
+                    Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+                    versions
+                    of Lorem IpsumLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                    make
+                    a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                    containing
+                    Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+                    versions
+                    of Lorem Ipsum
+                  </section>
+                  <br> <br>
+                  <section>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                    make
+                    a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                    containing
+                    Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+                    versions
+                    of Lorem IpsumLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                    make
+                    a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                    containing
+                    Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+                    versions
+                    of Lorem Ipsum
+                  </section>
+                </article>
+                <br>
+                <div class="carregando-container">
+                    <div class="carregando">
+                    </div>
+                </div>
+              </section>
+        </main>
+    </main>
+</body>
+</html>
